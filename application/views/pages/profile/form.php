@@ -6,7 +6,7 @@
         <div class="col-md-9">
             <div class="card">
                 <div class="card-header">
-                    Formulir profile
+                    Formulir Profil
                 </div>
                 <div class="card-body">
                     <?= form_open_multipart($form_action, ['method' => 'POST']) ?>

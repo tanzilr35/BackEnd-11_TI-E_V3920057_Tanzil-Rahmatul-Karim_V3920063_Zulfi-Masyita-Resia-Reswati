@@ -10,7 +10,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    Formulir Alamat pengiriman
+                    Formulir Alamat Pengiriman
                 </div>
                 <div class="card-body">
                     <form action="<?= base_url('checkout/create') ?>" method="POST">
