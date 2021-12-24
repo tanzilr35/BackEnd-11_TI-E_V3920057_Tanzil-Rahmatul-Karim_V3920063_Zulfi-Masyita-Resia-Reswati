@@ -10,7 +10,7 @@ class Myorder extends MY_Controller
     {
         parent::__construct();
 
-        $this->load->model('Myorder_model, myorder');
+        $this->load->model('Myorder_model', 'myorder');
 
         $is_login = $this->session->userdata('is_login');
         $this->id = $this->session->userdata('id');
